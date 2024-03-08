@@ -1,0 +1,33 @@
+.cards {
+    height: 20em;
+    width: 40em;
+    /* background-color: rgb(25, 135, 176); */
+    font-size: larger;
+    
+}
+
+
+.card-image {
+    max-width: 1.5cm; 
+    height: auto; 
+    /* margin-bottom: 10px;  */
+    
+}
+
+.cards.easy {
+    background-color: #8ac698;
+  }
+  
+  .cards.medium {
+    background-color: #d6c89a;
+    
+  }
+  
+  .cards.hard {
+    background-color: #e78b93; 
+  }
+  
+  .question, .answer {
+    color: #1179e1; 
+  }
+  
