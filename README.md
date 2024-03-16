@@ -1,45 +1,42 @@
-
-# Web Development Project 2 - *Flashcards*
+# Web Development Project 3 - Flashcard Game
 
 Submitted by: **Rudy Orahin**
 
-This web app is a dynamic Flashcard application designed to help users learn and memorize information through a series of interactive cards. Each card presents a question or a statement on one side and reveals the answer or corresponding information on the flip side. The app enhances learning experiences by introducing randomness and allowing the incorporation of visual elements into the learning material.
+This web app is designed to provide a fun and interactive way to learn and memorize information using a digital flashcard game. Users can test their knowledge by entering guesses for flashcard questions, receiving immediate feedback, and navigating through a sequence of cards with the option to shuffle.
 
-Time spent: **8** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
-- [x] **A single card at a time is displayed, only showing one of the components of the information pair**
-- [x] **A list of card pairs is created**
-- [x] **Clicking on the card shows the corresponding component of the information pair**
-- [x] **Clicking the next button displays a random new card**
+- [x] **The user can enter their guess in a box before seeing the flipside of the card**
+- [x] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [x] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
+- [x] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
 
 The following **optional** features are implemented:
 
-- [x] Cards contain images in addition to or in place of text
-- [x] Cards have different visual styles such as color based on their category
-  - [x] *Visual style implemented based on difficulty levels such as easy, medium, and hard.*
+- [x] A shuffle button is used to randomize the order of the cards
+- [ ] A user's answer may be counted as correct even when it is slightly different from the target answer
+- [ ] A counter displays the user's current and longest streak of correct responses
+- [ ] A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards
 
 The following **additional** features are implemented:
 
-* [x] Adaptive layout for mobile and desktop viewing to enhance usability across devices.
-* [x] Categories and difficulty levels for cards to aid structured learning and progression.
-* [x] Progress tracking to provide feedback to the user on their advancement through the card set.
+* [x] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented user stories:
 
-<img src="./src/images/video2.gif" title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="./src/images/video3.gif" title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-
+*Note: Insert video walkthrough link here*
 
 ## Notes
 
-During the development of the Flashcard app, challenges were encountered mainly in implementing the random card functionality to ensure no repetition occurs before all cards have been displayed. Additionally, designing a user-friendly interface that accommodates both text and image content without clutter was a meticulous task that required careful consideration of layout and styling.
+Challenges encountered during the development included ensuring the shuffle function properly randomized the card order without repetition and implementing a user-friendly UI for mobile and desktop viewing.
 
 ## License
 
